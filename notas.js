@@ -3,31 +3,31 @@ const curso = urlParams.get("curso") || "Curso";
 document.getElementById("curso-nombre").textContent = curso;
 
 const notasPorCurso = {
-  "Matemáticas": [
+  "Bases de Datos II": [
     { nombre: "Nota 1 (35%)", valor: 15, peso: 0.35 },
     { nombre: "Nota 2 (15%)", valor: 10, peso: 0.15 },
     { nombre: "Nota 3 (35%)", valor: 8, peso: 0.35 },
     { nombre: "Nota 4 (15%)", valor: 11, peso: 0.15 }
   ],
-  "Historia": [
+  "IA para Negocios": [
     { nombre: "Nota 1 (35%)", valor: 17, peso: 0.35 },
     { nombre: "Nota 2 (15%)", valor: 7, peso: 0.15 },
     { nombre: "Nota 3 (35%)", valor: 7, peso: 0.35 },
     { nombre: "Nota 4 (15%)", valor: 14, peso: 0.15 }
   ],
-  "Biología": [
+  "Algoritmos Recursivos": [
     { nombre: "Nota 1 (35%)", valor: 13, peso: 0.35 },
     { nombre: "Nota 2 (15%)", valor: 13, peso: 0.15 },
     { nombre: "Nota 3 (35%)", valor: 13, peso: 0.35 },
     { nombre: "Nota 4 (15%)", valor: 11, peso: 0.15 }
   ],
-  "Física": [
+  "IA y Domótica": [
     { nombre: "Nota 1 (35%)", valor: 13, peso: 0.35 },
     { nombre: "Nota 2 (15%)", valor: 11, peso: 0.15 },
     { nombre: "Nota 3 (35%)", valor: 13, peso: 0.35 },
     { nombre: "Nota 4 (15%)", valor: 12, peso: 0.15 }
   ],
-  "Literatura": [
+  "Seguridad de Datos": [
     { nombre: "Nota 1 (35%)", valor: 13, peso: 0.35 },
     { nombre: "Nota 2 (15%)", valor: 13, peso: 0.15 },
     { nombre: "Nota 3 (35%)", valor: 12, peso: 0.35 },
