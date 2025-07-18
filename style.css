@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 25px; /* tamaño base mejorado */
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+    padding: 10px;
+  }
+  
+  header {
+    background-color: #f26f21;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 34px;
+  }
+  
+  header p {
+    font-size: 25px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  section {
+    padding: 1em;
+  }
+  
+  .curso-lista {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 350px;
+  }
+  
+  .curso-lista li {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  .curso-lista a {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: #f26f21;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #notas-lista {
+    list-style: none;
+    padding: 0;
+    max-width: 300px;
+    margin: 0 auto; /* centra la lista */
+  }
+  
+  #notas-lista li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* línea gris entre notas */
+    text-align: center;
+  }
+
+  #promedio-final {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .logo-app {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    height: auto;
+  }
+  .seccion {
+    color: #888;
+    margin: 3px 0 10px 0;
+    font-size: 25px;
+    text-align: left;
+    text-align: center;
+  }
+  
+  
+  
